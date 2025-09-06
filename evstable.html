@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Characteristics Table</title>
+    <style>
+        html, body {
+            background: white;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        .table-container {
+            display: inline-block;
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            font-size: 12px;
+            line-height: 1.4;
+            background: white;
+        }
+        th, td {
+            padding: 6px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .header-row {
+            border-top: 2px solid black;
+            border-bottom: 1px solid black;
+        }
+        .section-divider {
+            border-top: 1px solid black;
+        }
+        .bottom-border {
+            border-bottom: 2px solid black;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .footnote {
+            font-style: italic;
+            font-size: 11px;
+        }
+        tr:first-child td {
+            border-top: 2px solid black;
+        }
+        .section-header td {
+            border-top: 1px solid black;
+            font-weight: bold;
+            background: #f7f7f7;
+        }
+        .table-end td {
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <tr>
+                <td class="bold">Patient characteristics</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>61.5 (50.75, 71.75)</td>
+            </tr>
+            <tr>
+                <td>Sex (F/M)</td>
+                <td>1 (10%) / 9 (90%)</td>
+            </tr>
+            <tr>
+                <td>HTN</td>
+                <td>9 (90%)</td>
+            </tr>
+            <tr>
+                <td>Diabetes mellitus</td>
+                <td>2 (20%)</td>
+            </tr>
+            <tr>
+                <td>Coronary artery disease</td>
+                <td>3 (30%)</td>
+            </tr>
+            <tr>
+                <td>COPD</td>
+                <td>3 (30%)</td>
+            </tr>
+            <tr>
+                <td>Chronic kidney disease</td>
+                <td>3 (30%)</td>
+            </tr>
+            <tr>
+                <td>Connective tissue disorder</td>
+                <td>0 (0%)</td>
+            </tr>
+            <tr class="section-header">
+                <td>TBAD dissection characteristics</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Chronicity of TBAD</td>
+                <td>Acute 7 (70%), Chronic 2 (20%), Subacute 1 (10%)</td>
+            </tr>
+            <tr>
+                <td>Thoracic false lumen</td>
+                <td>Patent 6 (60%), Partially thrombosed 3 (30%), Thrombosed 1 (10%)</td>
+            </tr>
+            <tr class="section-header">
+                <td>Pre-operative characteristics</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Persistent pain (back/chest)</td>
+                <td>9 (90%)</td>
+            </tr>
+            <tr>
+                <td>End-organ ischemia</td>
+                <td>4 (40%)</td>
+            </tr>
+            <tr>
+                <td>Abdominal/bowel malperfusion</td>
+                <td>1 (10%)</td>
+            </tr>
+            <tr>
+                <td>Lower extremity ischemia</td>
+                <td>1 (10%)</td>
+            </tr>
+            <tr class="section-header">
+                <td>Post-operative false lumen status</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Patent</td>
+                <td>0 (0%)</td>
+            </tr>
+            <tr>
+                <td>Partially thrombosed</td>
+                <td>1 (10%)</td>
+            </tr>
+            <tr>
+                <td>Thrombosed</td>
+                <td>9 (90%)</td>
+            </tr>
+            <tr class="section-header">
+                <td>Post-operative outcomes</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Surgical procedure time (min)</td>
+                <td>205 (181.5, 273.5)</td>
+            </tr>
+            <tr>
+                <td>Left SCA patency</td>
+                <td>10 (100%)</td>
+            </tr>
+            <tr>
+                <td>30-day mortality</td>
+                <td>0 (0%)</td>
+            </tr>
+            <tr>
+                <td>Renal failure</td>
+                <td>0 (0%)</td>
+            </tr>
+            <tr>
+                <td>Paraplegia</td>
+                <td>0 (0%)</td>
+            </tr>
+            <tr>
+                <td>Spinal cord ischemia</td>
+                <td>0 (0%)</td>
+            </tr>
+            <tr>
+                <td>Open conversion</td>
+                <td>0 (0%)</td>
+            </tr>
+            <tr class="section-header">
+                <td>Reinterventions during index hospitalization</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Yes</td>
+                <td>1 (10%)</td>
+            </tr>
+            <tr>
+                <td>No</td>
+                <td>9 (90%)</td>
+            </tr>
+            <tr class="table-end">
+                <td class="footnote">*Left common femoral artery pseudoaneurysm</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
